@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets: never commit real environment files
+.env
+.env.*
+!.env.example
+
+# Generated data and local databases (regenerate from the seed instead)
+data/generated/
+*.db
+*.sqlite
+chroma/
+
+# Tool caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
